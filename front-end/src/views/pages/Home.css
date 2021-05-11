@@ -1,0 +1,19 @@
+.container-home {
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 25vh 72vh 3vh;
+  grid-template-areas: "header" "main" "footer";
+}
+
+.container-home header {
+  grid-area: header;
+}
+
+.container-home main {
+  grid-area: main;
+}
+
+.container-home footer {
+  grid-area: footer;
+}

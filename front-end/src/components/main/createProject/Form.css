@@ -1,0 +1,171 @@
+.container-geral {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container-geral .container-btns {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background: #03a1e6;
+}
+
+.container-geral .container-btns .head-btns {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-geral .container-btns .head-btns img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-geral .container-btns .footer-btns {
+  width: 100%;
+  height: 30%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-geral .container-btns .bntSave {
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #fff;
+  border: 2px solid #fff;
+
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+
+  background: #040758;
+}
+
+.container-geral .container-btns .bntCancel {
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #fff;
+  border: 2px solid #fff;
+
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+
+  background: #ca19ee;
+}
+
+.container-geral .container-btns .footer-btns button {
+  width: 70%;
+  height: 50px;
+  margin: 10px;
+}
+
+.container-geral .container-btns .footer-btns button:active {
+  transform: scale(0.9);
+}
+
+.container-geral .container-btns .footer-btns .bntSave:hover {
+  background: #5a5ecc;
+}
+
+.container-geral .container-btns .footer-btns .bntCancel:hover {
+  background: #c563d8;
+}
+
+.container-geral .container-form {
+  width: 70%;
+  height: 100%;
+
+  background: #61c3ef;
+}
+
+.container-geral .container-form form {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.container-geral .container-form form h2 {
+  margin: 70px;
+  font-size: 30px;
+
+  color: #040758;
+}
+
+.container-geral .container-form form label {
+  width: 35%;
+  height: 50px;
+
+  margin: 10px;
+  font-size: 20px;
+  text-align: start;
+  color: #040758;
+
+  display: flex;
+  align-items: center;
+}
+
+.container-geral .container-form form input {
+  width: 80%;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+
+  background: #fff;
+}
+
+.container-geral .container-form form .dropdown {
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.container-geral .container-form form .container-situation,
+.container-geral .container-form form .container-dates,
+.container-geral .container-form form .container-responsible,
+.container-geral .container-form form .container-description {
+  width: 80%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container-geral .container-form form .container-description {
+  margin-top: 20px;
+}
+
+.container-geral .container-form form .label-description {
+  width: 17%;
+}
+
+.container-geral .container-form form .input-description {
+  width: 100%;
+  height: 100px;
+  border: 0;
+  border-radius: 5px;
+  resize: none;
+  font-size: 20px;
+  background: #fff;
+}
