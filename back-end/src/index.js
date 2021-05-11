@@ -17,14 +17,14 @@ server.get("/", (req, res) => {
 
 //criação das tabelas automaticamente
 
-// (async () => {
-//   const database = require("./config/database");
-//   try {
-//     const resultado = await database.sync();
-//   } catch (error) {
-//     console.log(error);
-//   }
-// })();
+(async () => {
+  const database = require("./config/database");
+  try {
+    const resultado = await database.sync();
+  } catch (error) {
+    console.log(error);
+  }
+})();
 
 server.listen(app_port, () => {
   console.log(`♠♠ Server running on the port: ${app_port} ♠♠`);
