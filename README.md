@@ -44,17 +44,9 @@
 
 <p align="center"><strong>Atenção: ⚠</strong></p>
 
-<div style="display: flex;
-  flex-direction: column;
-  align-items: center;">
-    <ul>
-
-  <li>Rodar <strong>yarn install</strong> para instalar as dependências tanto no back-end quanto no front-end;</li>
-  <li>Rodar <strong>yarn start</strong> para rodar a palicação tanto no back-end quanto no front-end;</li>
-  <li>Script do banco de dados está incluso no repositório para facilictar a construção do mesmo.</li>
-
-  </ul>
-</div>
+<p align="center">1. Rodar <strong>yarn install</strong> para instalar as dependências tanto no back-end quanto no front-end;</p>
+<p align="center">2. Rodar <strong>yarn start</strong> para rodar a palicação tanto no back-end quanto no front-end;</p>
+<p align="center">3. Script do banco de dados está incluso no repositório para facilictar a construção do mesmo.</p>
 
 </br>
 
